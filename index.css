@@ -61,6 +61,23 @@ th:hover {
   text-transform: uppercase;
   font-weight: 900;
 }
+.nevigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.nevigation li {
+  float: left;
+}
+.nevigation li a {
+  padding: 20px;
+  display: block;
+}
+.nevigation li a:hover {
+  background-color: rgba(10, 10, 10, 0.8);
+}
 #blank {
   background-color: transparent;
   border: 0;
@@ -68,6 +85,12 @@ th:hover {
 #gif {
   float: right;
   top: 0;
+}
+#nevigation {
+  position: relative;
+  margin: 0 auto;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 #main {
