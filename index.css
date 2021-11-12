@@ -103,14 +103,25 @@ th:hover {
     top: 0;
 }
 
-#nevigation {
-    position: relative;
-    margin: 0 auto;
-    margin-right: 50px;
-    margin-left: 50px;
+#button {
+    background-color: #5eb1e9;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-size: 100% 100%;
 }
 
-#main {
+#button:hover {
+    background-color: rgb(240, 149, 240);
+}
+
+#button:active {
+    border-radius: 100%;
+}
+
+.main {
     padding: 0px 40px 0px 40px;
     position: relative;
     margin: 0 auto;

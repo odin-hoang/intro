@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>UKAxG</title>
+    <title>UKAxG Doing more than Saying </title>
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
     <h2 style="margin: 10px;" id="main">
         Chào mừng các bạn đến trang của mình!
     </h2>
-    <div id="nevigation">
+    <div style="padding: 0;" class="main">
         <ul class="nevigation">
             <li><a href="#gioithieu">Giới thiệu</a></li>
             <li><a href="#phuongcham">Phương châm sống</a></li>
@@ -27,7 +27,7 @@
             <li><a href="#contact">Liên hệ</a></li>
         </ul>
     </div>
-    <div id="main">
+    <div class="main">
         <h3 id="gioithieu">
             GIỚI THIỆU
             <hr/>
@@ -46,7 +46,7 @@
 
     </div>
 
-    <div id="main">
+    <div class="main">
         <h3 id="phuongcham">
             PHƯƠNG CHÂM SỐNG
             <hr/>
@@ -63,7 +63,7 @@
             - đó là một minh chứng tốt nhất cho câu nói ấy - ít nhất là đối với mình trong quá khứ - hiện tại và tương lai.
         </p>
     </div>
-    <div id="main">
+    <div class="main">
         <h3 id="lichlamviec">LỊCH LÀM VIỆC <a target="_blank" href="./images/lichhoc.jpg" style="font-size: 14px;"><sub><em>(Xem chi tiết)</em></sub></a></h3>
         <hr/>
         <table style="width:100%">
@@ -94,17 +94,19 @@
         </table>
     </div>
 
-    <div id="main">
+    <div class="main">
         <h3 id="ask">
             Nếu bạn muốn kết bạn với mình hãy để lại lời nhắn nhé!
         </h3>
         <form method="get">
             <textarea style="margin-bottom:0 ; font-size: medium; font-family: 'Courier New', Courier, monospace; font-weight: 700px;font-style: italic; border: 2px solid #5eb1e9;" rows="5" cols="40" id="ib" placeholder="Fill the question"></textarea>
-            <button style="background-color: #5eb1e9; margin: 5px; margin-bottom: 20px; border-radius: 10px; padding: 10px;background-size: 100% 100%;" onclick="alert('Câu hỏi của bạn đã được gửi đến mình 😂😂\nĐùa đấy! Liên hệ với mình qua Facebook nhé!')"><b>Send</b></button>
+            <p id="button" onclick="alert('Câu hỏi của bạn đã được gửi đến mình 😂😂\nĐùa đấy! Liên hệ với mình qua Facebook nhé!')">
+                <b>Send</b>
+            </p>
         </form>
     </div>
 
-    <footer id="main">
+    <footer class="main">
         <h3 id="contact">
             <center><i>Và liên hệ mình và biết thêm nhiều điều về mình qua mạng xã hội !</i></center>
         </h3>
